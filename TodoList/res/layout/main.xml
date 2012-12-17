@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+	
+		
+	    <TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="Inserte nueva tarea" 
+		    />	
+	    <EditText 
+		    android:id="@+id/etNuevaTarea"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+		    />
+	    		
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="Insertar"
+			android:id="@+id/btnInsertar" 
+			android:onClick="insertarRegistro"
+			/>
+		
+		<Button 
+		    android:text="Eliminar" 
+		    android:id="@+id/borrar_registro"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:onClick="eliminarRegistro"
+			/>
+		
+		<TextView 
+		    android:id="@+id/txtseleccionado"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="" 
+		    />
+		
+	
+	<ListView 
+	    android:id="@+id/lista_datos" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:choiceMode="singleChoice"
+		/>
+	</LinearLayout>
+		
+
