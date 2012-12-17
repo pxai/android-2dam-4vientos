@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:focusableInTouchMode="false"
+	android:focusable="false"
+	>
+
+    <TextView 
+	    android:id="@+id/item_id"
+		android:clickable="false"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+	    android:text="" 
+	    android:paddingRight="2dp"
+		/>
+    	
+    <TextView 
+	    android:id="@+id/item_tarea"
+		android:clickable="false"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+	    android:text="" 
+		/>
+	
+</LinearLayout>
