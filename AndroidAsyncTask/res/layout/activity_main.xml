@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+        <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startInnerTask"
+        android:text="@string/start_inner_task" />
+        
+      <ProgressBar
+        android:id="@+id/progressBarInnerTask"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+          
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_here" />
+
+	<LinearLayout
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+    	<EditText
+       		 android:id="@+id/editText1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="http://localhost/labs/json.php"
+	 	/>
+
+   		<ImageButton
+        	android:id="@+id/imageButton1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:onClick="getJson"
+        	android:src="@android:drawable/btn_plus" />
+    </LinearLayout>
+    
+     <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-no data yet-" />
+
+</LinearLayout>
