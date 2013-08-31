@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+    <item
+        texto="Este es el texto1"
+        url="imagen1.jpg"
+        /> 
+    <item
+        texto="Este es el texto2"
+        url="imagen2.jpg"
+        /> 
+    <item
+        texto="Este es el texto3"
+        url="imagen3.jpg"
+        /> 
+</items>
