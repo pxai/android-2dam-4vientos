@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 	private RssListItemAdapter rssListItem;
 	private RssReaderAsyncTask rssReaderAsyncTask;
 	private ListView listNews;
-	private static final String RSS_URL = "http://www.pello.info/index.php/rss2";//"http://eugeniaperez.es/wordpress/?feed=rss2";
+	private static final String RSS_URL = "http://www.pello.info/index.php/rss2";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
