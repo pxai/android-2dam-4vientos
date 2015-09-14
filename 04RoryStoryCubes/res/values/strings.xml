@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Rory\'s Story Cubes</string>
+    <string name="app_name">Rory\'s Story Cubes</string>
+    <string name="splash_title">Rory\'s Story Cubes</string>
+    <string name="splash_subtitle">Story cubes in your android</string>
+    <string name="splash_info">v0.1 - Unknown</string>
+    <string name="menu_title">Menú</string>
+    <string name="setup_title">Preferences</string>
+    <string name="game_title">Game</string>
+    <string name="help_title">Help</string>
+    <string name="roll">Roll</string>
+    <string name="confirm_roll">Confirm Roll</string>
+    <string name="confirm_roll_desc">Confirm before you roll</string>
+    <string name="story_teller">Story Teller</string>
+    <string name="story_teller_name">Story Teller Name</string>
+    <string name="story_teller_desc">Put the story teller name</string>
+    <string name="story_teller_dialog_title">Teller name</string>
+    <string name="roll_mode">Roll Mode</string>
+    <string name="roll_mode_desc">Roll icons as the real dices</string>
+    <string name="roll_mode_dialog_title">Decide Roll Mode</string>
+    <string name="simple">Simple</string>
+    <string name="advanced">Advanced</string>
+    
+</resources>

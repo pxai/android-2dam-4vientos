@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen
+        name="logo_size">48dp</dimen>
+    <dimen
+        name="version_size">15dp</dimen>
+    <dimen
+        name="version_spacing">3dp</dimen>
+    <dimen
+        name="screen_title_size">40dp</dimen>
+    <dimen
+        name="menu_item_size">34dp</dimen>
+    <dimen
+        name="help_text_size">7pt</dimen>
+    <dimen
+        name="help_text_padding">20dp</dimen>
+    <dimen
+        name="help_text_fading">25dp</dimen>
+    <dimen
+        name="help_text_drawable_padding">5dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="roll_mode">
+      <item>Like real dices</item>
+      <item>Full random</item>
+   </string-array>
+   <string-array name="mode">
+      <item>real</item>
+      <item>full</item>
+   </string-array>
+</resources>

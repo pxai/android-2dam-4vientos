@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/simple">
+        <CheckBoxPreference
+            android:key="confirm_roll"
+            android:title="@string/confirm_roll"
+            android:summary="@string/confirm_roll_desc" />
+        <EditTextPreference
+            android:key="story_teller"
+            android:title="@string/story_teller"
+            android:summary="@string/story_teller_desc"
+            android:dialogTitle="@string/story_teller_dialog_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/advanced">
+        <ListPreference
+            android:key="roll_mode"
+            android:title="@string/roll_mode"
+            android:summary="@string/roll_mode_desc"
+            android:dialogTitle="@string/roll_mode_dialog_title"
+            android:entries="@array/roll_mode"
+            android:entryValues="@array/mode" />
+    </PreferenceCategory>
+</PreferenceScreen>

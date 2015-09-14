@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+
+   <TextView
+       	android:id="@+id/game_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_title" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		 >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:gravity="center"   >
+            
+        <ImageView
+            android:id="@+id/dice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="1dp"
+            android:src="@drawable/logosm" />
+        <ImageView
+            android:id="@+id/dice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="1dp"
+            android:src="@drawable/logosm" />
+         <ImageView
+            android:id="@+id/dice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="1dp"
+            android:src="@drawable/logosm" />     
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:paddingBottom="1dp"
+            android:gravity="center"   >
+        <ImageView
+            android:id="@+id/dice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="1dp"
+            android:src="@drawable/logosm" />
+        <ImageView
+            android:id="@+id/dice5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="1dp"
+            android:src="@drawable/logosm" />
+         <ImageView
+            android:id="@+id/dice6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="1dp"
+            android:src="@drawable/logosm" />        
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:paddingBottom="1dp"
+            android:gravity="center"   >
+          <ImageView
+            android:id="@+id/dice7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="1dp"
+            android:src="@drawable/logosm" />
+        <ImageView
+            android:id="@+id/dice8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="1dp"
+            android:src="@drawable/logosm" />
+         <ImageView
+            android:id="@+id/dice9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="1dp"
+            android:src="@drawable/logosm" />        
+        </TableRow>
+
+    </TableLayout>
+   
+ 	<Button  
+        android:id="@+id/botonroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/roll" 
+        android:onClick="roll" />
+ 	 <LinearLayout
+ 	     android:id="@+id/confirmLayout"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" 
+         android:visibility="gone"
+         android:gravity="center">
+ 	<Button  
+        android:id="@+id/botonrollyes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/yes" 
+        android:onClick="rollconfirm" />
+ 	  	<Button  
+        android:id="@+id/botonrollno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/no" 
+        android:onClick="rollcancel" />
+ 	 </LinearLayout>
+     <Button  
+        android:id="@+id/botonmenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_title" />
+
+
+
+    </LinearLayout>
+

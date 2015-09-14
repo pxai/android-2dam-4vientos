@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Rory\'s Story Cubes</string>
+    <string name="app_name">Rory\'s Story Cubes</string>
+    <string name="splash_title">Rory\'s Story Cubes</string>
+    <string name="splash_subtitle">Story cubes in your android</string>
+    <string name="splash_info">v0.1 - Unknown</string>
+    <string name="menu_title">Menú</string>
+    <string name="setup_title">Setup</string>
+    <string name="game_title">Game</string>
+    <string name="help_title">Help</string>
+    <string name="exit">Exit</string>
+    <string name="simple">Simple</string>
+    <string name="advanced">Advanced</string>
+    
+</resources>
